@@ -1,7 +1,7 @@
 ﻿
 namespace BowRepairTracker
 {
-    partial class AddOrderResults
+    partial class OrderStatusResults
     {
         /// <summary>
         /// Required designer variable.
@@ -34,14 +34,15 @@ namespace BowRepairTracker
             this.statusButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,13 +84,14 @@ namespace BowRepairTracker
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.richTextBox1);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(13, 77);
             this.groupBox1.Name = "groupBox1";
@@ -97,46 +99,52 @@ namespace BowRepairTracker
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             // 
-            // button1
+            // button4
             // 
-            this.button1.Location = new System.Drawing.Point(27, 239);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 27);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "APPLY";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(222, 280);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(118, 39);
+            this.button4.TabIndex = 21;
+            this.button4.Text = "CANCEL";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // button3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(11, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 29);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Order #001A";
+            this.button3.Location = new System.Drawing.Point(27, 280);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(118, 39);
+            this.button3.TabIndex = 20;
+            this.button3.Text = "APPLY";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // textBox1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(27, 83);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(116, 24);
-            this.radioButton1.TabIndex = 13;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Not Started";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.textBox1.Location = new System.Drawing.Point(27, 226);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(313, 26);
+            this.textBox1.TabIndex = 19;
+            this.textBox1.Text = "Edit Customer Email";
             // 
-            // radioButton2
+            // richTextBox1
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(27, 113);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(115, 24);
-            this.radioButton2.TabIndex = 14;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "In Progress";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(222, 83);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(192, 115);
+            this.richTextBox1.TabIndex = 17;
+            this.richTextBox1.Text = "CURRENT STATUS:\n\nNOT STARTED";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(27, 174);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(148, 24);
+            this.checkBox1.TabIndex = 16;
+            this.checkBox1.Text = "Notify Customer";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -149,35 +157,39 @@ namespace BowRepairTracker
             this.radioButton3.Text = "Completed";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // radioButton2
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(27, 174);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(148, 24);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Notify Customer";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(27, 113);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(115, 24);
+            this.radioButton2.TabIndex = 14;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "In Progress";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // radioButton1
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(246, 83);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(192, 115);
-            this.richTextBox1.TabIndex = 17;
-            this.richTextBox1.Text = "CURRENT STATUS:\n\nNOT STARTED";
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(27, 83);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(116, 24);
+            this.radioButton1.TabIndex = 13;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Not Started";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // label1
             // 
-            this.button2.Location = new System.Drawing.Point(222, 239);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 27);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "CANCEL";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(149, 29);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Order #001A";
             // 
-            // AddOrderResults
+            // OrderStatusResults
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -187,7 +199,7 @@ namespace BowRepairTracker
             this.Controls.Add(this.statusButton);
             this.Controls.Add(this.homeButton);
             this.Controls.Add(this.groupBox1);
-            this.Name = "AddOrderResults";
+            this.Name = "OrderStatusResults";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -202,13 +214,14 @@ namespace BowRepairTracker
         private System.Windows.Forms.Button statusButton;
         private System.Windows.Forms.Button homeButton;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }

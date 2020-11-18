@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BowRepairTracker
 {
-    public partial class AddOrderResults : Form
+    public partial class OrderStatusResults : Form
     {
-        public AddOrderResults()
+        public OrderStatusResults()
         {
             InitializeComponent();
         }

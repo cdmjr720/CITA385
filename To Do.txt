@@ -1,3 +1,6 @@
+Overall:
+Buttons should be highlighted when user is on that specific page (Home should be highlighted when user is on Home, for example)
+
 Login Screen:
 Code to Login (probably just click login to get to the next screen and some kind of error code if login is wrong)
 
@@ -18,6 +21,7 @@ Update More box in dialog box should bring back to Order Status Search Bar
 Add Order Screen:
 Functional checkboxes
 We probably don't need to have it store the info anywhere
+Options for different bowmodels in dropdown box
 Dialog box for added successfully (with add another order button bringing back to Add Order Screen)
 Error control in formatting of form
 

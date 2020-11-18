@@ -34,9 +34,9 @@ namespace BowRepairTracker
             this.statusButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +78,7 @@ namespace BowRepairTracker
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(13, 76);
@@ -86,15 +86,6 @@ namespace BowRepairTracker
             this.groupBox1.Size = new System.Drawing.Size(1211, 598);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(519, 69);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 27);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "SEARCH";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -111,6 +102,15 @@ namespace BowRepairTracker
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(333, 26);
             this.textBox1.TabIndex = 10;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(519, 64);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(118, 39);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "SEARCH";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // OrderStatus
             // 
@@ -137,8 +137,8 @@ namespace BowRepairTracker
         private System.Windows.Forms.Button statusButton;
         private System.Windows.Forms.Button homeButton;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
     }
 }
