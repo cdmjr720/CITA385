@@ -52,6 +52,24 @@
     <Compile Include="AddOrder.Designer.cs">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports-Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports-Sales.Designer.cs">
+      <DependentUpon>Reports-Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports-Repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports-Repair.Designer.cs">
+      <DependentUpon>Reports-Repair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports-Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports-Customer.Designer.cs">
+      <DependentUpon>Reports-Customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderStatusResults.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +99,9 @@
     <EmbeddedResource Include="AddOrder.resx">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports-Customer.resx">
+      <DependentUpon>Reports-Customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrderStatusResults.resx">
       <DependentUpon>OrderStatusResults.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +120,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reports-Repair.resx">
+      <DependentUpon>Reports-Repair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports-Sales.resx">
+      <DependentUpon>Reports-Sales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports.resx">
       <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>

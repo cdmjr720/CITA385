@@ -275,6 +275,8 @@ namespace BowRepairTracker
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.GrayText;
             this.richTextBox1.Location = new System.Drawing.Point(550, 109);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(308, 183);
@@ -310,7 +312,7 @@ namespace BowRepairTracker
             this.Controls.Add(this.homeButton);
             this.Controls.Add(this.groupBox1);
             this.Name = "AddOrder";
-            this.Text = "Form1";
+            this.Text = "ADD ORDER";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

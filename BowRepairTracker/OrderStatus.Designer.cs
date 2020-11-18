@@ -123,7 +123,7 @@ namespace BowRepairTracker
             this.Controls.Add(this.homeButton);
             this.Controls.Add(this.groupBox1);
             this.Name = "OrderStatus";
-            this.Text = "Form1";
+            this.Text = "ORDER STATUS";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
