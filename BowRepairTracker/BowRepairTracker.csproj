@@ -52,6 +52,12 @@
     <Compile Include="AddOrder.Designer.cs">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports-Sales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddOrder.resx">
       <DependentUpon>AddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports-Customer.resx">
       <DependentUpon>Reports-Customer.cs</DependentUpon>

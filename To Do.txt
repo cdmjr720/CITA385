@@ -17,12 +17,14 @@ Functional check box and radio buttons
 Dialog box for Apply with "Notify" clicked
 Dialog box for Apply with "Notify" NOT clicked
 Update More box in dialog box should bring back to Order Status Search Bar
+Dialog box should show current status of order (Not Started, In Progress, or Completed)
 
 Add Order Screen:
 Functional checkboxes
 We probably don't need to have it store the info anywhere
 Options for different bowmodels in dropdown box
 Dialog box for added successfully (with add another order button bringing back to Add Order Screen)
+Dialog box for errors (don't have "Start Over" option in box) 
 Error control in formatting of form
 
 Generate Reports Main Screen:
@@ -33,3 +35,4 @@ Functional calendar cycling
 Functional dropdown box for format
 Functional checkboxes
 "View" report should show something
+Dialog box when completed should have "Show Reports" option, may not need to be functional button
