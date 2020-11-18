@@ -52,6 +52,12 @@
     <Compile Include="AddOrder.Designer.cs">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddOrderResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrderResults.Designer.cs">
+      <DependentUpon>AddOrderResults.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddOrder.resx">
       <DependentUpon>AddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddOrderResults.resx">
+      <DependentUpon>AddOrderResults.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderStatus.resx">
       <DependentUpon>OrderStatus.cs</DependentUpon>

@@ -1,0 +1,31 @@
+Login Screen:
+Code to Login (probably just click login to get to the next screen and some kind of error code if login is wrong)
+
+Home Screen:
+Top Row Buttons to go to appropriate next screen
+No code needed for options inside home screen
+
+Order Status Search Bar:
+Search should bring up search results page
+
+Order Status Results:
+Functional check box and radio buttons
+"Current Status"
+Dialog box for Apply with "Notify" clicked
+Dialog box for Apply with "Notify" NOT clicked
+Update More box in dialog box should bring back to Order Status Search Bar
+
+Add Order Screen:
+Functional checkboxes
+We probably don't need to have it store the info anywhere
+Dialog box for added successfully (with add another order button bringing back to Add Order Screen)
+Error control in formatting of form
+
+Generate Reports Main Screen:
+Buttons should link to appropriate reports page (Sales, Repair, and Customer)
+
+Sales/Repair/Customer Report Screens:
+Functional calendar cycling
+Functional dropdown box for format
+Functional checkboxes
+"View" report should show something
