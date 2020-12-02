@@ -53,6 +53,7 @@ namespace BowRepairTracker
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -88,7 +89,7 @@ namespace BowRepairTracker
             // 
             // homeButton
             // 
-            this.homeButton.Location = new System.Drawing.Point(13, 11);
+            this.homeButton.Location = new System.Drawing.Point(13, 10);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(167, 59);
             this.homeButton.TabIndex = 6;
@@ -98,6 +99,7 @@ namespace BowRepairTracker
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button7);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.textBox1);
@@ -283,6 +285,16 @@ namespace BowRepairTracker
             this.label1.TabIndex = 11;
             this.label1.Text = "Enter Order Number:";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(365, 451);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(118, 39);
+            this.button7.TabIndex = 30;
+            this.button7.Text = "CANCEL";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // OrderStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -329,5 +341,6 @@ namespace BowRepairTracker
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button7;
     }
 }

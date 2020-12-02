@@ -39,5 +39,11 @@ namespace BowRepairTracker
         {
             formController.ShowReports(this);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowHome(this);
+        }
     }
 }

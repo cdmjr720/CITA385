@@ -89,7 +89,7 @@ namespace BowRepairTracker
             // 
             // homeButton
             // 
-            this.homeButton.Location = new System.Drawing.Point(11, 12);
+            this.homeButton.Location = new System.Drawing.Point(12, 11);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(167, 59);
             this.homeButton.TabIndex = 6;
@@ -134,6 +134,7 @@ namespace BowRepairTracker
             this.button1.TabIndex = 33;
             this.button1.Text = "CANCEL";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 

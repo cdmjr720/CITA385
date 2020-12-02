@@ -131,7 +131,7 @@ namespace BowRepairTracker
             // 
             // homeButton
             // 
-            this.homeButton.Location = new System.Drawing.Point(13, 13);
+            this.homeButton.Location = new System.Drawing.Point(13, 12);
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(167, 59);
             this.homeButton.TabIndex = 1;

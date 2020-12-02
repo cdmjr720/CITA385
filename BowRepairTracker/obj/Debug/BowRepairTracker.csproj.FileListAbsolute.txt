@@ -3,7 +3,6 @@ C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowR
 C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\bin\Debug\BowRepairTracker.pdb
 C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.csprojAssemblyReference.cache
 C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.AddOrder.resources
-C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.AddOrderResults.resources
 C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.OrderStatus.resources
 C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.Home.resources
 C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.Properties.Resources.resources
@@ -30,3 +29,8 @@ C:\Users\norton402\Documents\Cita 385\Project\CITA385\BowRepairTracker\obj\Debug
 C:\Users\norton402\Documents\Cita 385\Project\CITA385\BowRepairTracker\obj\Debug\BowRepairTracker.csproj.CoreCompileInputs.cache
 C:\Users\norton402\Documents\Cita 385\Project\CITA385\BowRepairTracker\obj\Debug\BowRepairTracker.exe
 C:\Users\norton402\Documents\Cita 385\Project\CITA385\BowRepairTracker\obj\Debug\BowRepairTracker.pdb
+C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.Login.resources
+C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.Form1.resources
+C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.OrderStatusResults.resources
+C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.Form3.resources
+C:\Users\maitla274\Desktop\CITA 385 (User Interface)\Final\BowRepairTracker\BowRepairTracker\BowRepairTracker\obj\Debug\BowRepairTracker.Form2.resources

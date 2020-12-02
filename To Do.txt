@@ -1,40 +1,23 @@
+Starts on Order Status Screen, not on Login Screen
+
 Overall:
-Buttons should be highlighted when user is on that specific page (Home should be highlighted when user is on Home, for example)
-
-Login Screen:
-Code to Login (probably just click login to get to the next screen and some kind of error code if login is wrong)
-
-Home Screen:
-Top Row Buttons to go to appropriate next screen
-No code needed for options inside home screen
-
-Order Status Search Bar:
-Search should bring up search results page
+Have the button of the window you're currently on to be highlighted? (Home would be highlighted when user is on Home, for example)
+Have all "Cancel" buttons go back to Home screen
+All "Clear" buttons should clear screen
 
 Order Status Results:
-Functional check box and radio buttons
-"Current Status"
-Dialog box for Apply with "Notify" clicked
-Dialog box for Apply with "Notify" NOT clicked
-Update More box in dialog box should bring back to Order Status Search Bar
-Dialog box should show current status of order (Not Started, In Progress, or Completed)
+Can there be a dialog box when clicking apply (either with notify clicked or not clicked?)
+Dialog box would have "Update more" box and would show current status of order (Not Started, In Progress, or Completed)
 
 Add Order Screen:
-Functional checkboxes
-We probably don't need to have it store the info anywhere
-Options for different bowmodels in dropdown box
+Need options for different bowmodels in dropdown box
 Dialog box for added successfully (with add another order button bringing back to Add Order Screen)
 Dialog box for errors (don't have "Start Over" option in box) 
-Error control in formatting of form
 
 Generate Reports Main Screen:
 Buttons should link to appropriate reports page (Sales, Repair, and Customer)
 
-Sales/Repair/Customer Report Screens:
-Functional calendar cycling
-Functional dropdown box for format
-Functional checkboxes
-"View" report should show something
-Dialog box when completed should have "Show Reports" option, may not need to be functional button
+All Report Screens:
+Need options on dropdown box for format
+Dialog box when completed should have "Show Reports" option (non-functional)
 
-THIS IS MY TEST
