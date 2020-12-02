@@ -52,6 +52,7 @@
     <Compile Include="AddOrder.Designer.cs">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormController.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

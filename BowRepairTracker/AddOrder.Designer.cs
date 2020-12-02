@@ -34,6 +34,7 @@ namespace BowRepairTracker
             this.statusButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -54,7 +55,6 @@ namespace BowRepairTracker
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +66,7 @@ namespace BowRepairTracker
             this.reportButton.TabIndex = 9;
             this.reportButton.Text = "REPORTS";
             this.reportButton.UseVisualStyleBackColor = true;
+            this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
             // 
             // addButton
             // 
@@ -84,6 +85,7 @@ namespace BowRepairTracker
             this.statusButton.TabIndex = 7;
             this.statusButton.Text = "ORDER STATUS";
             this.statusButton.UseVisualStyleBackColor = true;
+            this.statusButton.Click += new System.EventHandler(this.statusButton_Click);
             // 
             // homeButton
             // 
@@ -93,6 +95,7 @@ namespace BowRepairTracker
             this.homeButton.TabIndex = 6;
             this.homeButton.Text = "HOME";
             this.homeButton.UseVisualStyleBackColor = true;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // groupBox1
             // 
@@ -122,6 +125,15 @@ namespace BowRepairTracker
             this.groupBox1.Size = new System.Drawing.Size(1211, 598);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(395, 498);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 39);
+            this.button1.TabIndex = 33;
+            this.button1.Text = "CANCEL";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -302,15 +314,6 @@ namespace BowRepairTracker
             this.label1.Size = new System.Drawing.Size(310, 29);
             this.label1.TabIndex = 12;
             this.label1.Text = "NEW ORDER: Order #001B";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(395, 498);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "CANCEL";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // AddOrder
             // 

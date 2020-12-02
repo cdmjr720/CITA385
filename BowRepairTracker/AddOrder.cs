@@ -21,5 +21,23 @@ namespace BowRepairTracker
         {
 
         }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowHome(this);
+        }
+
+        private void statusButton_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowOrderStatus(this);
+        }
+
+        private void reportButton_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowReports(this);
+        }
     }
 }

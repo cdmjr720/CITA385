@@ -34,25 +34,25 @@ namespace BowRepairTracker
             this.statusButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +65,7 @@ namespace BowRepairTracker
             this.reportButton.TabIndex = 9;
             this.reportButton.Text = "REPORTS";
             this.reportButton.UseVisualStyleBackColor = true;
+            this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
             // 
             // addButton
             // 
@@ -74,6 +75,7 @@ namespace BowRepairTracker
             this.addButton.TabIndex = 8;
             this.addButton.Text = "ADD ORDER";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // statusButton
             // 
@@ -92,6 +94,7 @@ namespace BowRepairTracker
             this.homeButton.TabIndex = 6;
             this.homeButton.Text = "HOME";
             this.homeButton.UseVisualStyleBackColor = true;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // groupBox1
             // 
@@ -104,31 +107,6 @@ namespace BowRepairTracker
             this.groupBox1.Size = new System.Drawing.Size(1211, 598);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(346, 64);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 39);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "STATUS";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(173, 70);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 26);
-            this.textBox1.TabIndex = 10;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 20);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Enter Order Number:";
             // 
             // groupBox2
             // 
@@ -154,80 +132,30 @@ namespace BowRepairTracker
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Order Search:";
             // 
-            // button1
+            // button6
             // 
-            this.button1.Location = new System.Drawing.Point(350, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "SEARCH";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(350, 205);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(118, 39);
+            this.button6.TabIndex = 29;
+            this.button6.Text = "SEARCH";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // textBox6
             // 
-            this.textBox2.Location = new System.Drawing.Point(177, 31);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(167, 26);
-            this.textBox2.TabIndex = 15;
+            this.textBox6.Location = new System.Drawing.Point(177, 211);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(167, 26);
+            this.textBox6.TabIndex = 27;
             // 
-            // label2
+            // label6
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 20);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Customer First Name:";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(350, 70);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 39);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "SEARCH";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(177, 76);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(167, 26);
-            this.textBox3.TabIndex = 18;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 79);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 20);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Customer Last Name:";
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(350, 115);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 39);
-            this.button4.TabIndex = 23;
-            this.button4.Text = "SEARCH";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(177, 121);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(167, 26);
-            this.textBox4.TabIndex = 21;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 20);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Customer Phone:";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(26, 214);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(145, 20);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "Customer Address:";
             // 
             // button5
             // 
@@ -254,30 +182,106 @@ namespace BowRepairTracker
             this.label5.TabIndex = 25;
             this.label5.Text = "Customer Email:";
             // 
-            // button6
+            // button4
             // 
-            this.button6.Location = new System.Drawing.Point(350, 205);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(118, 39);
-            this.button6.TabIndex = 29;
-            this.button6.Text = "SEARCH";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(350, 115);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(118, 39);
+            this.button4.TabIndex = 23;
+            this.button4.Text = "SEARCH";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // textBox4
             // 
-            this.textBox6.Location = new System.Drawing.Point(177, 211);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(167, 26);
-            this.textBox6.TabIndex = 27;
+            this.textBox4.Location = new System.Drawing.Point(177, 121);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(167, 26);
+            this.textBox4.TabIndex = 21;
             // 
-            // label6
+            // label4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(26, 214);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 20);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Customer Address:";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(39, 124);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 20);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Customer Phone:";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(350, 70);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(118, 39);
+            this.button3.TabIndex = 20;
+            this.button3.Text = "SEARCH";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(177, 76);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(167, 26);
+            this.textBox3.TabIndex = 18;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 79);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(163, 20);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Customer Last Name:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(350, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 39);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "SEARCH";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(177, 31);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(167, 26);
+            this.textBox2.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(163, 20);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Customer First Name:";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(346, 64);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(118, 39);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "STATUS";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(173, 70);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(167, 26);
+            this.textBox1.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 73);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 20);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Enter Order Number:";
             // 
             // OrderStatus
             // 
