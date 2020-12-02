@@ -39,14 +39,14 @@ namespace BowRepairTracker
             this.statusButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,6 +106,7 @@ namespace BowRepairTracker
             this.reportButton.TabIndex = 14;
             this.reportButton.Text = "REPORTS";
             this.reportButton.UseVisualStyleBackColor = true;
+            this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
             // 
             // addButton
             // 
@@ -115,6 +116,7 @@ namespace BowRepairTracker
             this.addButton.TabIndex = 13;
             this.addButton.Text = "ADD ORDER";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // statusButton
             // 
@@ -124,6 +126,7 @@ namespace BowRepairTracker
             this.statusButton.TabIndex = 12;
             this.statusButton.Text = "ORDER STATUS";
             this.statusButton.UseVisualStyleBackColor = true;
+            this.statusButton.Click += new System.EventHandler(this.statusButton_Click);
             // 
             // homeButton
             // 
@@ -133,6 +136,7 @@ namespace BowRepairTracker
             this.homeButton.TabIndex = 11;
             this.homeButton.Text = "HOME";
             this.homeButton.UseVisualStyleBackColor = true;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // groupBox1
             // 
@@ -155,46 +159,24 @@ namespace BowRepairTracker
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             // 
-            // comboBox1
+            // textBox2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(16, 353);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(269, 28);
-            this.comboBox1.TabIndex = 33;
-            this.comboBox1.Text = "Choose Report Format";
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.textBox2.Location = new System.Drawing.Point(15, 122);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(269, 26);
+            this.textBox2.TabIndex = 41;
+            this.textBox2.Text = "Customer Last Name";
             // 
-            // monthCalendar1
+            // button1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(373, 90);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 34;
-            // 
-            // monthCalendar2
-            // 
-            this.monthCalendar2.Location = new System.Drawing.Point(703, 90);
-            this.monthCalendar2.Name = "monthCalendar2";
-            this.monthCalendar2.TabIndex = 35;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(379, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
-            this.label2.TabIndex = 36;
-            this.label2.Text = "From:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(711, 61);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 20);
-            this.label3.TabIndex = 37;
-            this.label3.Text = "To:";
+            this.button1.Location = new System.Drawing.Point(166, 154);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 39);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "SEARCH";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -206,24 +188,46 @@ namespace BowRepairTracker
             this.textBox1.TabIndex = 38;
             this.textBox1.Text = "Customer First Name";
             // 
-            // button1
+            // label3
             // 
-            this.button1.Location = new System.Drawing.Point(166, 154);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "SEARCH";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(711, 61);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 20);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "To:";
             // 
-            // textBox2
+            // label2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.textBox2.Location = new System.Drawing.Point(15, 122);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(269, 26);
-            this.textBox2.TabIndex = 41;
-            this.textBox2.Text = "Customer Last Name";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(379, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 20);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "From:";
+            // 
+            // monthCalendar2
+            // 
+            this.monthCalendar2.Location = new System.Drawing.Point(703, 90);
+            this.monthCalendar2.Name = "monthCalendar2";
+            this.monthCalendar2.TabIndex = 35;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(373, 90);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 34;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(16, 353);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(269, 28);
+            this.comboBox1.TabIndex = 33;
+            this.comboBox1.Text = "Choose Report Format";
             // 
             // Form1
             // 

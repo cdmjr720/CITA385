@@ -109,6 +109,7 @@ namespace BowRepairTracker
             this.reportButton.TabIndex = 19;
             this.reportButton.Text = "REPORTS";
             this.reportButton.UseVisualStyleBackColor = true;
+            this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
             // 
             // checkBox3
             // 
@@ -138,6 +139,7 @@ namespace BowRepairTracker
             this.addButton.TabIndex = 18;
             this.addButton.Text = "ADD ORDER";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // statusButton
             // 
@@ -147,6 +149,7 @@ namespace BowRepairTracker
             this.statusButton.TabIndex = 17;
             this.statusButton.Text = "ORDER STATUS";
             this.statusButton.UseVisualStyleBackColor = true;
+            this.statusButton.Click += new System.EventHandler(this.statusButton_Click);
             // 
             // homeButton
             // 
@@ -156,6 +159,7 @@ namespace BowRepairTracker
             this.homeButton.TabIndex = 16;
             this.homeButton.Text = "HOME";
             this.homeButton.UseVisualStyleBackColor = true;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // button4
             // 

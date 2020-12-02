@@ -15,11 +15,30 @@ namespace BowRepairTracker
         public Home()
         {
             InitializeComponent();
+            FormController.home = this;
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void statusButton_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowOrderStatus(this);
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowAddOrder(this);
+        }
+
+        private void reportButton_Click(object sender, EventArgs e)
+        {
+            FormController formController = new FormController();
+            formController.ShowReports(this);
         }
     }
 }
