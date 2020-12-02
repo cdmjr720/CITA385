@@ -2,15 +2,13 @@ Starts on Order Status Screen, not on Login Screen
 
 Overall:
 Have the button of the window you're currently on to be highlighted? (Home would be highlighted when user is on Home, for example)
-Have all "Cancel" buttons go back to Home screen
 All "Clear" buttons should clear screen
 
 Order Status Results:
-Can there be a dialog box when clicking apply (either with notify clicked or not clicked?)
+Dialog box when clicking apply (either with notify clicked or not clicked?)
 Dialog box would have "Update more" box and would show current status of order (Not Started, In Progress, or Completed)
 
 Add Order Screen:
-Need options for different bowmodels in dropdown box
 Dialog box for added successfully (with add another order button bringing back to Add Order Screen)
 Dialog box for errors (don't have "Start Over" option in box) 
 
@@ -18,6 +16,5 @@ Generate Reports Main Screen:
 Buttons should link to appropriate reports page (Sales, Repair, and Customer)
 
 All Report Screens:
-Need options on dropdown box for format
 Dialog box when completed should have "Show Reports" option (non-functional)
 

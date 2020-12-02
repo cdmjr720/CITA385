@@ -227,6 +227,13 @@ namespace BowRepairTracker
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Bow Model 1A",
+            "Bow Model 1B",
+            "Bow Model 1C",
+            "Bow Model 2A",
+            "Bow Model 2B",
+            "Bow Model 2C"});
             this.comboBox1.Location = new System.Drawing.Point(173, 277);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(333, 28);
