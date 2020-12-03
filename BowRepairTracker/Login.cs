@@ -12,9 +12,17 @@ namespace BowRepairTracker
 {
     public partial class Login : Form
     {
+        FormController formController;
+
         public Login()
         {
             InitializeComponent();
+            formController = new FormController();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            formController.ShowHome(this);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace BowRepairTracker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OrderStatus());
+            Application.Run(new Login());
         }
     }
 }

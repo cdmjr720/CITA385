@@ -50,5 +50,19 @@ namespace BowRepairTracker
         {
             MessageBox.Show("Your Order Has Been Added", "Order Added", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            comboBox1.SelectedIndex = -1;
+        }
     }
 }
