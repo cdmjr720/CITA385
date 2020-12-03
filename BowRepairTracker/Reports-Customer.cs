@@ -45,5 +45,11 @@ namespace BowRepairTracker
             FormController formController = new FormController();
             formController.ShowHome(this);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Report Generated, Click OK to View or Cancel to return", "Report Generated", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+
+        }
     }
 }

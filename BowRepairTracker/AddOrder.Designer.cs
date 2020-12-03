@@ -153,6 +153,7 @@ namespace BowRepairTracker
             this.button3.TabIndex = 31;
             this.button3.Text = "SAVE";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // richTextBox1
             // 

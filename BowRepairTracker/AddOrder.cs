@@ -45,5 +45,10 @@ namespace BowRepairTracker
             FormController formController = new FormController();
             formController.ShowHome(this);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your Order Has Been Added", "Order Added", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

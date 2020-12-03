@@ -45,5 +45,20 @@ namespace BowRepairTracker
             FormController formController = new FormController();
             formController.ShowHome(this);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                MessageBox.Show("Your Order Status Has Been Updated and Your Customer Has Been Notified", "Order Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            else
+            {
+                MessageBox.Show("Your Order Status Has Been Updated", "Order Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+
+        }
     }
 }
