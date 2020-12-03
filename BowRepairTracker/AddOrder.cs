@@ -49,6 +49,16 @@ namespace BowRepairTracker
         private void button3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Your Order Has Been Added", "Order Added", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            comboBox1.SelectedIndex = -1;
         }
 
         private void button4_Click(object sender, EventArgs e)
